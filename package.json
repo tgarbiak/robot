@@ -1,0 +1,15 @@
+{
+  "name": "robot",
+  "version": "1.0.0",
+  "description": "A small, simple exercise to show some of my node/javascript skills.",
+  "main": "robot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tomasz Garbiak <tgarbiak+github.com@gmail.com>",
+  "license": "GPLv3",
+  "dependencies": {
+    "bluebird": "~2.9",
+    "lodash": "~3.7"
+  }
+}
