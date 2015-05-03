@@ -12,8 +12,7 @@ app.question('Provide number of towers')
     .then(function() { return app.question('Provide end point location (in an "x y" format)'); })
     .then(app.handleStartEndPoint('endPoint'))
     .then(function() {
-        let doable = search(app.state);
-        if (doable) {
+        if (search(app.state)) {
             proc.stdout.write('Path between start point and end point was found');
         } else {
             proc.stdout.write('No path between start and end point found');
