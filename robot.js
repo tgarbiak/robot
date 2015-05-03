@@ -17,12 +17,10 @@ app.question('Provide number of towers')
         } else {
             proc.stdout.write('No path between start and end point found');
         }
-        return bb.resolve();
     })
     .catch(function(error) {
         console.log(error.trace());
         proc.exit();
-    })
-    .done();
+    });
 
 
