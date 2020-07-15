@@ -10,6 +10,6 @@
   "license": "GPLv3",
   "dependencies": {
     "bluebird": "~2.9",
-    "lodash": "~3.7"
+    "lodash": "~4.17"
   }
 }
